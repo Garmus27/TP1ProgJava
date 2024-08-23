@@ -76,7 +76,6 @@ public class Main {
                 num=Integer.parseInt(JOptionPane.showInputDialog("porfavor ingresa un numero"));
             }
         }else if (ejercicio == 11) {
-            boolean valido= false;
             int intentos =0;
             String userPass = "salsa123567";
 
