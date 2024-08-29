@@ -82,14 +82,14 @@ public class Main {
              while(intentos<3){
                  String pass=JOptionPane.showInputDialog("Porfavor ingrese su password");
                  if(userPass.equals(pass)){
-                     System.out.println("Bienvenido puton!");
+                     System.out.println("Bienvenido!");
                      break;
 
                  }else{
                      System.out.println("password incorrecte, intente de nuevo");
                      intentos=intentos+1;
                      if(intentos==3){
-                         System.out.println("Llegaste al limite de intentos, chupate mansa");
+                         System.out.println("Llegaste al limite de intentos, por favor intenta nuevamente mas tarde");
                      }
 
                  }
